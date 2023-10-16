@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Noto+Sans+JP:wght@500;700&family=Poppins:wght@600&family=Ubuntu+Mono&display=swap');
+
+body {
+    gap: 2%
+}
+
+/* aside */
+
+.aside {
+    background-color: #FAFBFD;
+}
+
+/* logo */
+.logo h3 {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 76px;
+}
+
+.logo .orange{
+    color: #F7542E;
+}
+
+/* navbar */
+.navbar ul li {
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #9E9E9E;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.navbar #bold {
+    color: #090F31;
+}
+
+/* inputs */
+.main .heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #4F4F4F;
+}
+
+/* paragraph top */
+.main .top {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+}
+
+/* label */
+.main .input label {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+}
+
+/* placeholder */
+.main .input input::placeholder {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #828282;
+}
+
+
+/* groups */
+
+.main .group1, .main .group2, .main .group3, .main .group4, .main .group5, .main .group6, .main .group7  {
+    gap: 4%;
+}
+
+/* subtexts */
+.input-p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+/* icons */
+#icon1 {
+    position: relative;
+    top: 2.4rem;
+    left: .5rem;
+}
+
+#icon2 {
+    position: relative;
+    top: 2.4rem;
+    left: 12rem;
+}
+
+#left-input-icon {
+    padding-left: 30px;
+}
+
+#group-9-left-input {
+    padding: 18px 118px 112px 12px;
+}
+
+@media (max-width: 573px) {
+    .heading {
+        margin-top: 2rem;
+    }
+
+    .group5 .left {
+        margin-bottom: 1rem;
+    }
+}
+
+
+
